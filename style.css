@@ -1,17 +1,135 @@
+h1 {
+    font-size: xx-large;
+    color: rgb(157, 231, 18);
+    text-align: center;
+
+}
+
+
 h2 {
-    font: 1em sans-serif;
-    color: rgb(240, 162, 16);
+    font: 3em sans-serif;
+    color: rgb(240, 186, 87);
     font-family: 'Open Sans', sans-serif;
 }
 
 h3 {
-    font: 1em sans-serif;
+    font: 4em sans-serif;
     color: darkblue;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
-h4 body {
+span {
+    color: darkorange;
+}
+
+h4 {
+    font-size: 800px;
+    font-weight: 800px;
+    color: rgb(87, 86, 19);
+}
+
+H5 {
+    color: dodgerblue
+}
+
+body {
     font-weight: 400px;
 
+}
+
+.half-width {
+    display: flex;
+    padding-left: 9px;
+    width: 40%;
+    padding: 7px;
+
+}
+
+.img {
+    border: 1px solid rgb(44, 35, 161);
+    border-radius: 4px;
+    padding: 2px;
+    width: 100%;
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(75, 243, 8, 0.897);
+}
+
+.three-width {
+    display: flex;
+    padding-left: 4px;
+    width: 33%;
+    text-align: bottom;
+
+
+}
+
+.flexible-container {
+    display: flex;
+    margin: 140px;
+}
+
+.back-img {
+
+    background-image: url(back3.png);
+    background-position: right;
+    background-repeat: no-repeat;
+
+}
+
+.top-banner {
+    background-image: url(7.png);
+    background-position: centre;
+    background-repeat: no-repeat;
+}
+
+.btn {
+    background-color: #72bd10;
+    border-radius: 28px;
+    border: 1px solid #18ab29;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 16px 31px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #0e2199;
+}
+
+.btn:hover {
+    background-color: #8b9c83;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+
+
+
+.mid-run {
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+#back-black {
+    background-color: grey;
+}
+
+#right {
+    text-align: right;
+    color: rgb(26, 226, 53);
+}
+
+#backi {
+    background-image: url(home.png);
+    background-repeat: no-repeat;
 
 }
